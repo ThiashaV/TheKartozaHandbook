@@ -41,8 +41,7 @@ Currently the following platforms should be supported:
   The pep8 checks E121-E128 have been disabled until pep8 version 1.3 becomes
   widely available.
 * [Python documentation guide](http://www.python.org/dev/peps/pep-0257)
-* Code must pass a [pylint validation](
-  http://www.logilab.org/card/pylint_manual#what-is-pylint). You can test
+* Code must pass a [pylint validation](https://pypi.org/project/pylint/). You can test
   this using the make target ``make pylint``. In some cases you may wish to
   override a line or group of lines so that they are not validated by pylint.
   You can do this by adding either:
@@ -439,7 +438,7 @@ is replaced with the SHA1 for the file when the release packages are made.
 
 Compile UI files at run time. There is no need to precompile UI files using
 pyuic4. Rather you can dynamically compile them using this technique (see
-[technical docs here](http://pyqt.sourceforge.net/Docs/PyQt4/designer.html#the-uic-module):
+[technical docs here](http://pyqt.sourceforge.net/Docs/PyQt4/designer.html#the-uic-module)):
 
 ```python
     import os
@@ -546,7 +545,7 @@ underscore names. For this reason we adopt the following strategy:
 
 # Human Interface Guidelines
 
-Please see the dedicated page for [Human Interface Guidelines](human-interface-guidelines).
+Please see the dedicated page for [Human Interface Guidelines](https://uxcel.com/glossary/human-interface-guidelines-hig).
 
 # Code statistics
 
